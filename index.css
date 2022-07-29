@@ -1,0 +1,73 @@
+.banner {
+  padding: 0;
+  background-color: #707173;
+  color: white;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner-text {
+  padding: 8px 20px;
+  margin: 0;
+}
+
+.colx{
+  float: right;
+}
+
+#join-form {
+  margin-top: 10px;
+}
+
+.sendMessage {
+  background-color: #0a1ed5;
+  color: blue;
+ 
+}
+
+.blue-color {
+  color:white;
+}
+.all-users-text {
+  background: #707173;
+  padding: 30px;
+  color: white;
+  border-radius: 15px;
+  max-height: 500px;
+  overflow: scroll;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tips {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: gray;
+}
+
+.join-info-text {
+  margin-bottom: 2px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.player {
+  width: 180px;
+  height: 180px;
+}
+
+.player-name {
+  margin: 8px 0;
+}
+
+#success-alert, #success-alert-with-token {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .player {
+    width: 60px;
+    height: 60px;
+  }
+}
